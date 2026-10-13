@@ -6,7 +6,6 @@
 
 [catalog]
 # Where `luma-foreman get` takes bundles from when no --from is given.
-source = "https://github.com/LumaStack/luma-catalog"
 
 # Words this project retired. `luma-foreman inspect` reports each use as a
 # notice — never a finding, because a grep cannot tell a revival from an
@@ -93,3 +92,5 @@ except = [
 # that was renamed. Retiring either trains a reader to skim past notices, which
 # costs more than the two stale field references they would have caught.
 
+[catalog."lumastack/luma-catalog-prototype"]
+source = "https://github.com/LumaStack/luma-catalog-prototype"
